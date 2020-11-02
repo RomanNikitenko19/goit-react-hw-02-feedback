@@ -9,6 +9,7 @@ class Feedback extends Component {
           return (
 
                <section className="feedback-section">
+                    <div className="container">
                     <h1 className="title">Please leave feedback</h1>
                     <div className="div">
                          <button className="btn">good</button>
@@ -24,6 +25,7 @@ class Feedback extends Component {
                          <li className="item"><span className="total_counter"></span></li>
                          <li className="item"><span className="positive-feedback_counter"></span></li>
                     </ul>
+                    </div>
                </section>
           );
      }

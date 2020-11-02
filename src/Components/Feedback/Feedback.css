@@ -1,0 +1,52 @@
+.container {
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+     width: 1200px;
+}
+.feedback-section {
+     background: darkgray;
+     border-radius: 4px;
+}
+.btn {
+     display: inline-block;
+     min-width: 200px;
+     padding-top: 10px;
+     padding-right: 22px;
+     padding-bottom: 10px;
+     padding-left: 22px;
+     margin: 20px;
+
+     background: darkgray;
+     color: whitesmoke;
+
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 1.87;
+     align-items: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+
+     border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+     background: gray;
+     border: 2px solid black;
+}
+
+.title {
+     margin-top: 0;
+     margin-bottom: 30px;
+     color: whitesmoke;
+
+     font-weight: 700;
+     font-size: 44px;
+     line-height: 1.36;
+     /* text-align: center; */
+     letter-spacing: 0.06em;
+
+}
+
+
