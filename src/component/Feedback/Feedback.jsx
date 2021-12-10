@@ -37,7 +37,7 @@ class Feedback extends Component {
         <Title title={"Please leave feetback"} />
         <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.increase} />
         <Title title={"Statistics"} />
-        {this.state.good || this.state.bad || this.state.neutral ? (
+        {good || bad || neutral ? (
           <Statistics good={good} neutral={neutral} bad={bad} total={total} positivePercentage={positivePercentage} />
         ) : (
           <Notification message="There is no feedback"></Notification>
